@@ -49,7 +49,60 @@ section nav li a:hover {
     color: green;
 }
 
-section nav .social-icon {
+section nav .social-icon i{
     margin: 0 5px;
     font-size: 18px;
+    cursor: pointer;
+}
+
+section nav .social-icon i:hover {
+    color: green;
+}
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 12%
+
+}
+
+section .main h1 {
+    position: relative;
+    top: 45px;
+    left: 25px;
+    font-size: 55px;
+
+}
+
+section .main h1 span{
+    color: aquamarine;
+}
+
+section .main p {
+    width: 500px;
+    text-align: justify;
+    line-height: 20px;
+    position: relative;
+    top: 80px;
+    left: 25px;
+}
+
+section .main .main-tag .main-btn {
+    background: green;
+    padding: 10px 20px;
+    position: relative;
+    top: 120px;
+    left: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+section .main .main_img img {
+    width: 700px;
+    position: relative;
+    top: 150px;
+    left: 20px;
 }
