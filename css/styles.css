@@ -106,3 +106,129 @@ section .main .main_img img {
     top: 150px;
     left: 20px;
 }
+
+
+
+/* Services */
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services-box {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services-box .services-card {
+    text-align: center;
+    width: 20%;
+    height: auto;
+    border: 1px solid;
+    padding: 10px 15px;
+
+}
+
+
+
+/* Books */
+
+.featured-books {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.featured-books h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.featured-books .featured-book-box {
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+
+.featured-books .featured-book-box .featured-book-card {
+    width: 200px;
+    height: 400px;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid gray;
+    margin: auto 15px;
+}
+
+.featured-books .featured-book-box .featured-book-card img {
+    width: 150px;
+    height: 230px;
+
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag h2 {
+    margin: 6px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .writer {
+    color: gray;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .categories {
+    color: #089da1;
+    margin-top: 6px;
+
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .book-price {
+    margin-top: 6px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF8787;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .book-price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .f_btn {
+    padding: 6px 20px;
+    border: 1px solid green;
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    font-weight: bold;
+
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .f_btn:hover {
+    background-color: #089da1;
+    color: #FF8787;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #089da1;
+    border-radius: 10px;
+}
