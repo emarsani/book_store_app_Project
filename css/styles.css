@@ -106,3 +106,34 @@ section .main .main_img img {
     top: 150px;
     left: 20px;
 }
+
+
+
+/* Services */
+
+.services {
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services-box {
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services-box .services-card {
+    text-align: center;
+    width: 20%;
+    height: auto;
+    border: 1px solid;
+    padding: 10px 15px;
+
+}
+
+
+
+/* Books */
